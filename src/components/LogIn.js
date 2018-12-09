@@ -6,6 +6,7 @@ import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 import RaisedButton from 'material-ui/RaisedButton';
 import AppBar from 'material-ui/AppBar';
 import TextField from 'material-ui/TextField';
+import Snackbar from 'material-ui/Snackbar';
 
 
 
@@ -17,7 +18,7 @@ class LogIn extends Component {
         }
     }
     render() {
-        const { username, password } = this.props.authReducer;
+        const { username, password , unAuth} = this.props.authReducer;
         return (
             <div style={styles.LogInContainer}>
                 <MuiThemeProvider >
@@ -31,8 +32,9 @@ class LogIn extends Component {
                             <TextField
                                 id="username"
                                 floatingLabelText="Namn"
+                                value={username}
                                 onChange={
-                                    event => this.props.updateLogInInfo('username', event.target.value)
+                                    event => this.props.updateLogInInfo('username', event.target.value.toLowerCase())
                                 }
                             />
                         </div>
@@ -41,6 +43,7 @@ class LogIn extends Component {
                                 id="password"
                                 type="password"
                                 floatingLabelText="Lösenord"
+                                value={password}
                                 onChange={
                                     event => this.props.updateLogInInfo('password', event.target.value)
                                 }
@@ -55,13 +58,18 @@ class LogIn extends Component {
                                 Log in!
                             </RaisedButton>
                         </div>
+                        <Snackbar
+                            open={unAuth}
+                            onClose={() => this.props.closeError(username, password)}
+                            message='Fel användarnamen eller lösenord'
+                        />
                     </div>
                 </MuiThemeProvider>
             </div>
         );
     }
 }
-  
+
 
 const styles = {
     AppBar: {
