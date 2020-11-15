@@ -1,9 +1,13 @@
 import { userDB } from '../db/users';
 
-const all = ['arty', 'mamma', 'pappa', 'giedre', 'ruth', 'mårten', 'gabby']
+let all = ['gabby', 'theo', 'corinne', 'samanta', 'joanna', 'adam', 'brittmari', 'elias']
+
+function shuffle(array) {
+    return array.sort(() => Math.random() - 0.5);
+  }
 
 export const becomeSanta = (seed, name) => dispatch =>{
-    let seed = 943333;
+    let seed = 9835470;
     let index = all.indexOf(name);
     let rand = seed%(all.length-1) + 1;
     let pick = (rand + index)%(all.length);
