@@ -1,58 +1,62 @@
 export const userDB = {
     arty:{
-        img:'https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/17021934_10211020252774810_8186227132021810225_n.jpg?_nc_cat=101&_nc_ht=scontent-arn2-1.xx&oh=a990a5af5def8276ba8523d4260f481a&oe=5CAA9CC3',
+        img:'https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/14379763_10154552442083270_8539942245306286627_o.jpg?_nc_cat=110&ccb=2&_nc_sid=cdbe9c&_nc_ohc=mnuRoscuGwsAX-SV7v7&_nc_ht=scontent-arn2-1.xx&oh=217b8ca25fae8e006d5caf6222b3e3fb&oe=5FDEFBF3',
         passwd:'7162',
     },
     mamma:{
-        img:'https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/12246829_109945032706020_8320901744033130800_n.jpg?_nc_cat=100&_nc_ht=scontent-arn2-1.xx&oh=5f6a7b9af74562070e6c83774c366a25&oe=5C9BF0F8',
+        img:'https://scontent-arn2-2.xx.fbcdn.net/v/t1.0-9/12246829_109945032706020_8320901744033130800_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=ar2zke8KDtcAX9Rl9Eq&_nc_ht=scontent-arn2-2.xx&oh=88f8bbf6238da44277f593e4d8bf02e6&oe=5FE00308',
         passwd:'1551',
     },
     pappa:{
-        img:'https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/12645030_444786719044197_4348962695886748678_n.jpg?_nc_cat=102&_nc_ht=scontent-arn2-1.xx&oh=7d7e32cab77be95e7666418e772aaab2&oe=5CA76A5D',
-        passwd:'9332',
+        img:'https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/12645030_444786719044197_4348962695886748678_n.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_ohc=M-M1IEnEK_UAX8PoKDE&_nc_ht=scontent-arn2-1.xx&oh=99e75d414519662b6a8fee9204c4cec9&oe=5FE06723',
+        passwd:'711120',
     },
     giedre:{
-        img:'https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/20476210_316062295530338_8695908894543796651_n.jpg?_nc_cat=106&_nc_ht=scontent-arn2-1.xx&oh=20b04934e4679cb89a6e713079b10ed5&oe=5C6A8737',
-        passwd:'8467',
+        img:require('../db/giedre.jpg'),
+        passwd:'711120',
     },
     ruth:{
-        img:'https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/18620350_10212981142825035_7334478999495921768_n.jpg?_nc_cat=108&_nc_ht=scontent-arn2-1.xx&oh=a9d0c0213d8f5b5af8b2791b2c48acbc&oe=5C975159',
-        passwd:'3516',
+        img:'https://scontent-arn2-2.xx.fbcdn.net/v/t1.0-9/68593245_10219723440418261_3595312841399205888_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=Iu3LALrzUP0AX8FxPMK&_nc_ht=scontent-arn2-2.xx&oh=0078dae7234de87084115226ff2da016&oe=5FDD0B0A',
+        passwd:'3',
     },
     mårten:{
-        img:'https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/18699980_10212962480287603_4072495925082089805_n.jpg?_nc_cat=100&_nc_ht=scontent-arn2-1.xx&oh=c0cacefe9b144dd217fdc37f11526380&oe=5CACA695',
-        passwd:'6846',
+        img:'https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/155240_1653806435897_1074451_n.jpg?_nc_cat=102&ccb=2&_nc_sid=de6eea&_nc_ohc=J25uFUGaXwgAX_JbXZ_&_nc_ht=scontent-arn2-1.xx&oh=111a084405845120f817ca221a0175ba&oe=5FDE2786',
+        passwd:'4',
     },
     gabby:{
-        img:'https://scontent-arn2-2.xx.fbcdn.net/v/t1.0-9/31081711_2130308393652502_7549969284168941568_n.jpg?_nc_cat=104&_nc_oc=AQmQLGOwCJZxN5rJULWYGqwGFSyTjeQuL9ut5Z0q9aM2qaTPlg7eKMW-L0rpTdF5XKY&_nc_ht=scontent-arn2-2.xx&oh=f198ba03723b82495472439093b2f1cd&oe=5E4DE6C4',
+        img: require('../db/gabby.jpg'),
         passwd:'123',
     },
     corinne:{
-        img:'https://scontent-arn2-2.xx.fbcdn.net/v/t1.0-9/p960x960/34340309_941855502662312_6092279825110663168_o.jpg?_nc_cat=108&_nc_oc=AQkkqLoLtXSQrdEpY62eVtmddDpCr1bJCdeNzDRRUPVUTubKoKB8bIGACJc0U-Ci6BU&_nc_ht=scontent-arn2-2.xx&oh=46c8815ffcd8f124e586680e43f0052d&oe=5E50A4CC',
+        img:'https://scontent-arn2-2.xx.fbcdn.net/v/t1.0-9/34340309_941855502662312_6092279825110663168_o.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=zUherrearbsAX_xw6eh&_nc_ht=scontent-arn2-2.xx&oh=42ec066008b34b49943327d32981afe7&oe=5FDFF564',
         passwd:'112',
     },
     samanta:{
-        img:'https://media.licdn.com/dms/image/C4E03AQGayHOi7smfJw/profile-displayphoto-shrink_800_800/0?e=1579737600&v=beta&t=sWbPr3bl_wYw3xuM-wkPAUs-OBDW80L_uFp5tV1y0DI',
+        img: require('../db/samantha.jpg'),
         passwd:'911',
     },
     elias:{
-        img:'https://media.licdn.com/dms/image/C4E03AQEDu9mwcPi6zg/profile-displayphoto-shrink_200_200/0?e=1579737600&v=beta&t=UyS9mI5hggJI2yw-QZC0Gr2dyPwz1IsseZDtYwl95Zo',
-        passwd:'11414',
+        img:'https://scontent-arn2-2.xx.fbcdn.net/v/t1.0-9/109720682_279934143462114_1296423308745283161_o.jpg?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=YrKO6tV9wmkAX9esf_7&_nc_ht=scontent-arn2-2.xx&oh=39a275d872c3741b9a3e0083401645e8&oe=5FDFB760',
+        passwd:'6',
     },
     brittmari:{
-        img: require('../db/sensmamma.jpg'),
-        passwd:'1177',
+        img: require('../db/new_mamma.jpg'),
+        passwd:'5',
     },
     joanna:{
-        img:'https://scontent-arn2-2.xx.fbcdn.net/v/t1.0-9/36045381_10155232181827315_4220792927330238464_n.jpg?_nc_cat=102&_nc_oc=AQmHKL7gdrs2-4ciZxBM3xMPhTHS3VSUROy7pPcJ3VXIiPPLCQkdq295ZLA7OhreSVo&_nc_ht=scontent-arn2-2.xx&oh=33a7f58c938ad1d21e5fda7572864f36&oe=5E570CD1',
-        passwd:'11818',
+        img:'https://scontent-arn2-2.xx.fbcdn.net/v/t1.0-9/39225_412417527314_1755577_n.jpg?_nc_cat=100&ccb=2&_nc_sid=de6eea&_nc_ohc=PvtBIOcO_vUAX9TzBxL&_nc_ht=scontent-arn2-2.xx&oh=a2ccafcd970573cb587cd3aa7b18270d&oe=5FDEC651',
+        passwd:'13',
     },
     adam:{
-        img:'https://scontent-arn2-2.xx.fbcdn.net/v/t31.0-8/p960x960/14115588_10209399479880209_1356682952470951325_o.jpg?_nc_cat=111&_nc_oc=AQliTJ39bTjErC4HaAt9HUlreLYiCW5D9On5jT8cpaMQWIjX7GdiJ8nEGdU5q-CCbX0&_nc_ht=scontent-arn2-2.xx&oh=8ac726de60164522b3276bb3bf7e89fe&oe=5E444421',
+        img:'https://scontent-arn2-2.xx.fbcdn.net/v/t1.0-9/998846_10202797560596353_1971778693_n.jpg?_nc_cat=100&ccb=2&_nc_sid=174925&_nc_ohc=43_DOA36HxcAX-o4UA9&_nc_ht=scontent-arn2-2.xx&oh=a160a206122fb24eb54edea003f06b12&oe=5FDF8EDF',
         passwd:'1337',
     },
     theo:{
         img: require('../db/theo.jpg'),
         passwd:'666',
+    },
+    viktor:{
+        img: 'https://media-exp1.licdn.com/dms/image/C4E03AQH_9TwTGg397g/profile-displayphoto-shrink_800_800/0?e=1611187200&v=beta&t=du_-CWvARKK77t35vIFctpUWZNFko_62cX40HEFF-CI',
+        passwd:'111',
     },
 }
